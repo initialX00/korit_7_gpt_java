@@ -10,10 +10,6 @@ public class UserController {
     @Setter
     private UserService userService; //생성자를 통한 의존성주입.
 
-    public UserController(UserService userService) {
-        this.userService = userService;
-    }
-
     public void signIn() {
 
     }
